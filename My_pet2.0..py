@@ -58,7 +58,6 @@ class Critter:
             self.__pass_time()
 
     def play(self, fun = 4):
-        print("Уиии!")
         self.boredom -= fun
         if self.boredom < 0:
             self.boredom = 0
