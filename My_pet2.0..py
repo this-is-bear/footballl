@@ -92,19 +92,25 @@ def main():
             print("До свидания.")
         if choice == "2":
             print("Я не наигрался!")
+            crit.play()
         if choice == "3":
             print("Было весело,но маловато")
+            crit.play()
         if choice == "4":
             print("Уииииии!")
+            crit.play()
         if choice == "5":
             print("Фух,я устал(а)")
+            crit.play()
         if choice == "6":
             print("Ну,можно было и больше")
+            crit.eat()
         if choice == "7":
             print("Ммм,спасибо")
+            crit.eat()
         if choice == "8":
             print("Мммммм,я слишком много съел(а)")
-
+            crit.eat()
         # беседа со зверюшкой
         elif choice == "1":
             crit.talk()
